@@ -1,6 +1,6 @@
 [package]
 name = "cargo-fel4"
-version = "0.8.2"
+version = "0.8.3"
 publish = false
 authors = ["Jon Lamb <jlamb@polysync.io>", "Zachary Pierce <zpierce@polysync.io>", "Dan Pittman <dpittman@polysync.io>"]
 
@@ -13,6 +13,6 @@ log = "0.4"
 structopt = "0.2"
 
 [dev-dependencies]
-proptest = "0.7"
+proptest = "0.8.5"
 tempfile = "3"
 lazy_static = "1.0"

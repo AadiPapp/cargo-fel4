@@ -105,7 +105,6 @@ static mut CHILD_STACK: *const [u64; CHILD_STACK_SIZE] =
 #![feature(lang_items, core_intrinsics)]
 #![feature(global_asm)]
 #![cfg_attr(feature = \"alloc\", feature(global_allocator))]
-#![feature(panic_implementation)]
 #![feature(panic_info_message)]\n\n"
         )?;
 
@@ -257,7 +256,7 @@ fn lang_start<T: Termination + 'static>(
     panic!("Root task should never return from main!");
 }
 
-#[panic_implementation]
+#[panic_handler]
 #[no_mangle]
 fn panic(info: &PanicInfo) -> ! {
     #[cfg(feature = "KernelPrinting")]

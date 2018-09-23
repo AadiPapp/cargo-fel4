@@ -65,7 +65,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "cargo-fel4"
-version = "0.7.0"
+version = "0.8.0"
 dependencies = [
  "cargo_metadata 0.5.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "cmake_config 0.1.0",

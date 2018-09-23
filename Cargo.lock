@@ -70,7 +70,7 @@ dependencies = [
  "cargo_metadata 0.5.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "cmake_config 0.1.0",
  "colored 1.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "fel4-config 0.3.0 (git+https://github.com/PolySync/fel4-config.git)",
+ "fel4-config 0.3.0 (git+https://github.com/piensa/fel4-config.git)",
  "lazy_static 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "proptest 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -173,7 +173,7 @@ dependencies = [
 [[package]]
 name = "fel4-config"
 version = "0.3.0"
-source = "git+https://github.com/PolySync/fel4-config.git#e33620ff5acc1e5f3cfb526b7e126b5d5b1757eb"
+source = "git+https://github.com/piensa/fel4-config.git#e33620ff5acc1e5f3cfb526b7e126b5d5b1757eb"
 dependencies = [
  "cmake 0.1.31 (registry+https://github.com/rust-lang/crates.io-index)",
  "failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -627,7 +627,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum error-chain 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ff511d5dc435d703f4971bc399647c9bc38e20cb41452e3b9feb4765419ed3f3"
 "checksum failure 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "934799b6c1de475a012a02dab0ace1ace43789ee4b99bcfbf1a2e3e8ced5de82"
 "checksum failure_derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c7cdda555bb90c9bb67a3b670a0f42de8e73f5981524123ad8578aafec8ddb8b"
-"checksum fel4-config 0.3.0 (git+https://github.com/PolySync/fel4-config.git)" = "<none>"
+"checksum fel4-config 0.3.0 (git+https://github.com/piensa/fel4-config.git)" = "<none>"
 "checksum fnv 1.0.6 (registry+https://github.com/rust-lang/crates.io-index)" = "2fad85553e09a6f881f739c29f0b00b0f01357c743266d478b68951ce23285f3"
 "checksum fuchsia-zircon 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)" = "2e9763c69ebaae630ba35f74888db465e49e259ba1bc0eda7d06f4a067615d82"
 "checksum fuchsia-zircon-sys 0.3.3 (registry+https://github.com/rust-lang/crates.io-index)" = "3dcaa9ae7725d12cdb85b3ad99a434db70b468c09ded17e012d86b5c1010f7a7"
